@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+
+
+	.login_div1 , .login_div2
+	{
+		background: paleturquoise;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 50%;
+		height: 10%;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+
+
+#title {
+	color: black;
+	font-family: 'Shantell Sans', cursive;
+	font-size: 55px;
+
+}
+
+#player1_name_input{
+	width: 30%;
+}
+
+#player2_name_input{
+	width: 30%;
+}
+
+#myCarousel img
+{
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p
+{
+    margin-top: 15px;
+    color : black;
+    font-size: 20px;
+}
+
+h2 {
+	font-family: 'Shantell Sans', cursive;
+	font-size: 35px;
+}
+
+#Kids_img{
+	width: 50%;
+	height: 50%;
+}
+
+p {
+	font-size: 17.5px;
+
+}
+
+#myCarousel {
+	background-color: paleturquoise;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid lightskyblue;
+padding: 10px;
+float: none;
+text-align: left;
+}

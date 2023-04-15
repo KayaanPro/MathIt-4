@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MathIt!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+		  <a class="navbar-brand" href="https://www.powtoon.com/s/bHGNVs0APJR/1/m/s">MathIt!</a>
+		</div>
+		
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav">
+			<li><a href="#PlayQuiz">Play Quiz</a></li>
+			<li><a href="#about_us">About us</a></li>
+			<li><a href="#what's_new">What's New</a></li>
+			<li><a href="#contact_us">Contact Us</a></li>
+		  </ul>
+		</div>
+	  
+	  </nav>
+
+<center>
+
+
+
+	<script src="quiz_game_login.js"></script>
+
+
+	<h1 id="title">MathIt!</h1>
+
+
+	<img id = "WTMI" src="Welcome to  MathIt!.svg">
+
+
+	<style>
+		#WTMI{
+			height: 45%;
+			width: 45%;
+		}
+	</style>
+
+	<br><br><br>
+
+	<div class="container">
+
+	<h2 class="page header" id="PlayQuiz">Play Quiz!</h2>
+
+	<hr>
+
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+		<h3>Player 1 Login for the game</h3>
+		<label>Username : </label>
+		<input type="text" class="form-control" id="player1_name_input" placeholder="Player 1 name">
+		<br>
+	</div>
+
+	<hr>
+
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+		<h3>Player 2 Login for the game</h3>
+		<label>Username : </label>
+		<input type="text" class="form-control" id="player2_name_input" placeholder="Player 2 name">
+		<br>
+	</div>
+
+	<br><br>
+	
+	<button style="width: 30%;" class="btn btn-success" onclick="addUser()">Login</button>
+
+	<br><br><br><br>
+
+	<h2 class="page header" id="about_us">About Us</h2>
+
+  
+	  <div class="travel_mainDiv">
+  
+		<h4 class="text capitalize"><kbd>Get to know about us!</kbd></h4>
+  
+		<hr>
+		<br>
+		
+		<p class="text-muted">Hi! I am Kayaan. The founder of many websites including this! I am an experienced coder and I have a really creative mind! And so I started creating this website. That is how MathIt was born! MathIt lets you and your friend challenge each other with math equations. Its really simple. There are some websites that I have created exactly like this which are listed down here. Also, if you would like to suggest something please do, we will definitly read your suggestions! You can see my contact if you would click "Contact Us" adove.</p>
+
+		<br>
+
+		<h4>Click on the website to view it!</h4>
+
+		<br>
+  
+		
+		<div class="container">
+	
+	
+			<div id="myCarousel" class="carousel slide">
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<a href="https://kayaanpro.github.io/C71/" target="_blank">
+								<img src="My school Website.png">
+							</a>
+							<p>School is the best!</p>
+						</div>
+	
+						<div class="item">
+							<a href="https://kayaanpro.github.io/project-79/" target="_blank">
+								<img src="Pizzeria.png">
+							</a>
+							<p>I love Pizza!</p>
+						</div>
+						
+						  <div class="item">
+							<a href="https://kayaanpro.github.io/project-82/" target="_blank">
+								<img src="Paint.png">
+							</a>
+							<p>Time to paint!</p>
+						</div>
+						
+						<div class="item">
+							<a href="https://kayaanpro.github.io/C-60/" target="_blank">
+							   <img src="My Favorite food.png">
+							</a>
+							<p>What's your favorite food?</p>
+						</div>
+	
+					</div>
+	
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<!--provide class "glyphicon glyphicon-chevron-right" for the span tag below-->
+						<span class="glyphicon glyphicon-chevron-right "></span>
+					</a>
+	
+			</div>
+	
+		</div>
+
+
+<br><br><br><br>
+
+<h2 class="page header" id="what's_new">What's New!</h2>
+
+<hr>
+
+<div class="travel_mainDiv">
+  
+	<h4 class="text capitalize"><kbd>Get to know what's new!</kbd></h4>
+
+	
+	<p class="text-muted">So, our website is really good though as they say, there is always room for improvement. And that's why we plan to create out website more interactive and playful so that little kids would love to come here! We also plan to make this website into an educational website too. With that being said, we will later start creating videos which will teach kids of all age math. We really look forward into being a really good website! Again, if you think something could be changed, please contact us!</p>
+
+	<br><br>
+
+	<img id = "Kids_img" src="Kids.svg">
+
+	<br><br><br><br>
+
+	<h2 class="page header" id="contact_us">Contact Us</h2>
+
+	<hr>
+
+	<section id="contact_us">
+  
+		<h3>Founder: </h3>
+		<h4>Kayaan Amichandwala</h4>
+		
+		<div class="contact_1">
+		  <a href="mailto:architectjimmy@yahoo.com?Subject=Hi">
+			<h4><i class="fa-fa envelope"></i>&nbsp;&nbsp;founder@gmail.com</h5>
+		  </a>
+		</div>
+	  
+	  </section>
+
+	  <br><br>
+
+
+</center>
+
+</div>
+</body>
+</html>
